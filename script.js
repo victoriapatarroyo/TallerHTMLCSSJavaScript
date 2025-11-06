@@ -9,7 +9,7 @@ botonIncrementar.addEventListener('click', function() {
     valorContador.textContent = contador;
 
     if(valorContador.textContent >= 10) {
-        valorContador.style.color = "green";
+        valorContador.style.color = "blue";
     } else {
         valorContador.style.color = "black";
     }
@@ -22,6 +22,6 @@ botonDecrementar.addEventListener('click', function() {
     if(valorContador.textContent < 10) {
         valorContador.style.color = "black";
     } else {
-        valorContador.style.color = "green";
+        valorContador.style.color = "blue";
     }
 });
